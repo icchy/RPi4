@@ -74,7 +74,7 @@ jobs:
     - name: Upload UEFI firmware artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: RPi4 UEFI Firmware ${{ steps.set_version.outputs.version }} Artifacts
+        name: RPi4_UEFI_Firmware
         path: |
           Build/RPi4/**/FV/RPI_EFI.fd
 
